@@ -11,7 +11,7 @@ public class Player implements Observer {
 
     @Override
     public void update(Release release) {
-        System.out.println("Player " + name + ": Updated game - " + release.title);
+        System.out.println("Player " + name + ": " + release.title);
         System.out.println("Achievements: " + release.achievements + '\n');
     }
 }
